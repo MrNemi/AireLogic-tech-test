@@ -37,8 +37,8 @@ class AppointmentModel(db.Model):
     postcode = db.Column(db.String(10))
     app_id = db.Column(db.UUID(), unique = True)
 
-    def __init__(self, nhs_number,name,DOB,postcode):
-        self.nhs_number = nhs_number
+    def __init__(self, patient,name,DOB,postcode):
+        self.patient = patient
         self.name = name
         self.DOB = DOB
         self.postcode = postcode
