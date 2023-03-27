@@ -44,7 +44,7 @@ if __name__ == "__main__":
 
 ## Interacting with the API
 
-1. On your web browser, enter "localhost:<desired port>", in this case "localhost:5000", to view the API once it's running.
+1. On your web browser, enter "localhost:desired port", in this case "localhost:5000", to view the API once it's running.
 
 2. Interacting with the API can be done either via the CLI of the code editor or directly on the web server once it is running.
 
