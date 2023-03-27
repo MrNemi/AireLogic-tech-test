@@ -58,6 +58,8 @@ Most of the allotted project time was spent figuring out an optimal approach for
 I. Complete HTML files for editing patient and appointment details
 
 II. NHS number checksum validation
+
+Checksum logic
 1. Create variable 'total'.
 
 2. Iterate through first 9 digits of patient's NHS number, multiplying each one by the corresponding weighing factor (Tenth digit of patient's NHS number is assigned to 'check_digit' variable.).
