@@ -40,7 +40,7 @@ This server is coded to start on port 5000 by default. You can change this in `m
 if __name__ == "__main__":
     app.run(host='localhost', port = <desired port>, debug =True)
 ```
-
+![CRUD API](https://user-images.githubusercontent.com/39632424/227818319-e8328589-72c8-4768-9fd2-d296cb5f24f2.JPG)
 
 ## Interacting with the API
 
