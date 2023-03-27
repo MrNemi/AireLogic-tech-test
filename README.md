@@ -41,19 +41,23 @@ if __name__ == "__main__":
     app.run(host='localhost', port = <desired port>, debug =True)
 ```
 
+
 ## Interacting with the API
 
-Interacting with the API can be done either via the CLI of the code editor or directly on the web server once it is running. 
+Interacting with the API can be done either via the CLI of the code editor or directly on the web server once it is running.
 Any changes made to 'main.py' is immediately reflected on the server page as it automatically updates once the program is saved.
+Within the editor CLI, typing in the command 'Ctrl+C' is used to stop the API.
+
 
 ## Challenges
 
 Most of the allotted project time was spent figuring out an optimal approach for developing the API. Given additional time, all key functionalities are certain to be implemented.
 
-## Future Implementation
-# I. Complete HTML files for editing patient and appointment details
 
-# II. NHS number checksum validation
+## Future Implementation
+I. Complete HTML files for editing patient and appointment details
+
+II. NHS number checksum validation
 1. Create variable 'total'.
 
 2. Iterate through first 9 digits of patient's NHS number, multiplying each one by the corresponding weighing factor (Tenth digit of patient's NHS number is assigned to 'check_digit' variable.).
@@ -63,15 +67,23 @@ Most of the allotted project time was spent figuring out an optimal approach for
     total = sum of all products
 ```
 
-4. Variable 'remnant' = modulus(total/11)
+4. 
+```
+    remainder = modulus(total/11)
+```
 
-5. new_check_digit = 11 - remnant
+5. 
+```
+    new_check_digit = 11 - remnant
+```
 
-6. if (remnant == new_check_digit):
+6. 
+```
+    if (remnant == new_check_digit):
         'NHS number is valid'
     else:
         'NHS number is invalid'
-
+```
 
 ## Notes
 
