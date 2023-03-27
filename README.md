@@ -44,9 +44,15 @@ if __name__ == "__main__":
 
 ## Interacting with the API
 
-Interacting with the API can be done either via the CLI of the code editor or directly on the web server once it is running.
-Any changes made to 'main.py' is immediately reflected on the server page as it automatically updates once the program is saved.
-Within the editor CLI, typing in the command 'Ctrl+C' is used to stop the API.
+1. On your web browser, enter "localhost:<desired port>", in this case "localhost:5000", to view the API once it's running.
+
+2. Interacting with the API can be done either via the CLI of the code editor or directly on the web server once it is running.
+
+3. Any changes made to 'main.py' is immediately reflected on the server page as it automatically updates once the program is saved.
+
+4. Within the editor CLI, typing in the command 'Ctrl+C' is used to stop the API.
+
+5. Reloading the page after this should display a connection error.
 
 
 ## Challenges
