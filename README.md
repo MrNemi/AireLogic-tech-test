@@ -1,4 +1,4 @@
-# AireLogic-Tech-Test
+# Tech-Test
 Patient Appointment Backend
 
 # Task
